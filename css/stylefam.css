@@ -11,7 +11,7 @@ html, body {
     height: 100%;
     position: relative;
     overflow-x: hidden;
-  background: linear-gradient(68.15deg, rgb(51, 97, 97) 16.62%, rgb(89, 184, 184) 85.61%)
+    background: linear-gradient(68.15deg, rgb(51, 97, 97) 16.62%, rgb(89, 184, 184) 85.61%);
 }
 
 .cabecalho {
@@ -50,18 +50,19 @@ html, body {
 }
 
 .conteudo {
-  margin-bottom: 48px;
-  border-top: 0.4px solid white;
-  position: relative;
-  width: 100%;
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+    
+    position: relative;
+    width: 100%;
 }
 
 .conteudo-principal {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
   height: calc(100% - 200px);
+  justify-content: space-around;
   position: relative;
 }
 
@@ -167,48 +168,4 @@ text-align: center;
   height: 320px;
   border: 10px solid white;
   text-align: center;
-}
-
-.respingo-direito {
-  width: 300px;
-  position: relative;
-  height: 1000px;
-  right: -200px;
-}
-.respingo-esquerdo {
-  width: 300px;
-  position: relative;
-  height: 1000px;
-  left: 400px;
-}
-
-.esquerdo-cima {
-  width: 300px;
-  position: relative;
-  height: 900px;
-  left: 120px;
-  top: -900px;
-}
-.direito-cima {
-  width: 300px;
-  position: relative;
-  height: 900px;
-  right: 100px;
-  top: -900px;
-}
-
-.esquerdo-baixo {
-  width: 300px;
-  position: relative;
-  height: 1100px;
-  left: -200px;
-  top: 1000px;
-}
-
-.direito-baixo {
-  width: 300px;
-  position: relative;
-  height: 1100px;
-  right: 400px;
-  top: 1050px;
 }
