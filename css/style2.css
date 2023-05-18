@@ -10,7 +10,8 @@
 html, body {
     height: 100%;
     position: relative;
-    overflow-: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
   background: linear-gradient(68.15deg, rgb(51, 97, 97) 16.62%, rgb(89, 184, 184) 85.61%)
 }
 
