@@ -10,7 +10,6 @@
 html, body {
     height: 100%;
     position: relative;
-    overflow-y: hidden;
     overflow-x: hidden;
   background: linear-gradient(68.15deg, rgb(51, 97, 97) 16.62%, rgb(89, 184, 184) 85.61%)
 }
@@ -107,8 +106,8 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-    bottom: -50px;
-    right: -220px;
+    bottom: -40px;
+    right: -110px;
     width: 500px;
     height: 550px;
 }
