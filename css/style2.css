@@ -10,7 +10,7 @@
 html, body {
     height: 100%;
     position: relative;
-    overflow-x: hidden;
+    overflow-: hidden;
   background: linear-gradient(68.15deg, rgb(51, 97, 97) 16.62%, rgb(89, 184, 184) 85.61%)
 }
 
@@ -20,6 +20,14 @@ html, body {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0.25;
+}
+
+.center{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.25;
 }
 
 .cabecalho-imagem {
@@ -44,6 +52,9 @@ html, body {
 .conteudo {
   margin-bottom: 48px;
   border-top: 0.4px solid white;
+  height: calc(100% - 200px);
+  position: relative;
+  width: 100%;
 }
 
 .conteudo-principal {
@@ -51,6 +62,8 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  height: calc(100% - 200px);
+  position: relative;
 }
 
 .conteudo-principal-escrito {
@@ -89,10 +102,12 @@ html, body {
   background-color: rgba(236, 214, 196, 0.53);
 }
 
-.conteudo-principal-imagem {
+.imagem-bunda {
+  display: flex;
+  flex-wrap: wrap;
   position: absolute;
-    bottom: -100px;
-    right: -100px;
+    bottom: -50px;
+    right: -220px;
     width: 500px;
     height: 550px;
 }
