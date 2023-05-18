@@ -7,7 +7,7 @@
 
 html,body{
     height: 100%;
-    overflow-y: hidden;
+    
     overflow-x: hidden;
     position: relative;
     background-color: rgb(51, 97, 97);
@@ -83,9 +83,10 @@ section.sobre{
     font-size: 14px;
     font-weight: bold;
     max-width: 700px;
-    text-align: justify;
+    
     line-height: 23px;
 }
+
 .texto-sobre button{
     border: 0;
     background-color: white;
