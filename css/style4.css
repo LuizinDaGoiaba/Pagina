@@ -8,7 +8,7 @@
 html, body {
     height: 100%;
     position: relative;
-    overflow-: hidden;
+    overflow-x: hidden;
   background: linear-gradient(68.15deg, rgb(51, 97, 97) 16.62%, rgb(89, 184, 184) 85.61%)
 }
 
@@ -44,43 +44,29 @@ section.sobre{
     position: relative;
 }
 
+.centro {
+    text-align: center;
+    margin-top: 50px
+}
+
 .texto-sobre{
     margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-.texto-sobre h1{
+.texto-sobre h2{
     font-size: 30px;
-    margin-left: 150px;
+    margin-left: 50px;
+    color: white;
 }
 .texto-sobre p{
-    margin: 20px 0;
-    margin-left: 150px;
-    color: black;
-    font-size: 14px;
-    font-weight: bold;
-    max-width: 700px;
-    text-align: justify;
-    line-height: 25px;
-}
-.texto-sobre button{
-    border: 0;
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    margin-left: 150px;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
 }
-  
-  .texto-sobre button:hover {
-    background-color: rgba(236, 214, 196, 0.53);
-  }
 
-  .bugado {
+.bugado {
     height: 500px;
     width: 600px;
     right: 150px;
@@ -91,4 +77,48 @@ section.sobre{
     padding: 5px;
     margin: 0px 10px 10px 0;
     max-width: 186px;
+  }
+
+.fotos{
+    display: inline-block;
+    border: 10px solid white;
+    width: 100%;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.video{
+    display: inline-block;
+    border: 10px solid white;
+    width: 100%;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+  }
+  
+  .conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+  }
+  
+  .conteudo-secundario-paragrafo {
+  text-align: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
   }
