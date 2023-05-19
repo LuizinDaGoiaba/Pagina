@@ -87,7 +87,7 @@ section.sobre{
     line-height: 23px;
 }
 
-.texto-sobre button{
+.texto-sobre input{
     border: 0;
     background-color: white;
     color: black;
@@ -101,6 +101,6 @@ section.sobre{
     font-size: 15px;
 }
   
-  .texto-sobre button:hover {
+  .texto-sobre input:hover {
     background-color: rgba(236, 214, 196, 0.53);
   }
