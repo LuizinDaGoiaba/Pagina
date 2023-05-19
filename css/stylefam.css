@@ -50,11 +50,10 @@ html, body {
 }
 
 .conteudo {
-    margin-bottom: 48px;
-    border-top: 0.4px solid white;
-    
-    position: relative;
-    width: 100%;
+  margin-bottom: 48px;
+  border-top: 0.4px solid white;
+  position: relative;
+  width: 100%;
 }
 
 .conteudo-principal {
@@ -102,6 +101,7 @@ html, body {
 .conteudo-principal-escrito-botao:hover {
   background-color: rgba(236, 214, 196, 0.53);
 }
+
 
 .conteudo-secundario {
   display: flex;

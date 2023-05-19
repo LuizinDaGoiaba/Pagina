@@ -8,7 +8,7 @@
 html, body {
     height: 100%;
     position: relative;
-    overflow-x: hidden;
+    overflow-: hidden;
   background: linear-gradient(68.15deg, rgb(51, 97, 97) 16.62%, rgb(89, 184, 184) 85.61%)
 }
 
@@ -83,7 +83,12 @@ section.sobre{
   .bugado {
     height: 500px;
     width: 600px;
-    right: -150px;
-    position: absolute;
+    right: 150px;
+    
     bottom: -50px;
+    float: right;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
   }
