@@ -1,0 +1,154 @@
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+    background: black;
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.25;
+}
+
+.cabecalho-imagem {
+    width: 5%;
+    position: absolute;
+}
+
+.cabecalho-menu {
+    padding: 30px;
+    width: 100%;
+    text-align: right;
+    background-color: white;
+}
+
+.cabecalho-menu-item {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.centro {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+.centro h3{
+    margin-top: 20px;
+}
+.centro p{
+    color: grey;
+}
+.botao{
+    margin: 5px;
+    background-color:aliceblue;
+}
+.botao:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+.texto-sobre{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    text-align: center;
+}
+.texto-sobre h2{
+    font-size: 30px;
+    margin-left: 50px;
+    color: white;
+}
+.texto-sobre p{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.bugado {
+    height: 500px;
+    width: 600px;
+    right: 150px;
+    
+    bottom: -50px;
+    float: right;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+  }
+
+.fotos{
+    display: inline-block;
+    border: 10px solid white;
+    width: 100%;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.video{
+    display: inline-block;
+    border: 10px solid white;
+    width: 100%;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+  }
+  
+  .conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+  }
+  
+  .conteudo-secundario-paragrafo {
+  text-align: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+  }
+  .coluna{
+    float: left;
+    width: 33.33%;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
