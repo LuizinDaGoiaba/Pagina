@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout css</title>
+    <style>
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    background-color: gray;
+    text-align: center;
+}
+.box1 {
+    grid-column-start: 1; grid-column-end: 12; grid-row-start: 1; grid-row-end: 1; border: 5px solid gainsboro;
+}
+.box2 {
+    grid-column-start: 1; grid-column-end: 12; grid-row-start: 2; grid-row-end: 2; border: 5px solid gainsboro;
+}
+.box3 {
+    grid-column-start: 1; grid-column-end: 12; grid-row-start: 3; grid-row-end: 3; border: 5px solid gainsboro;
+}
+.box4 {
+    grid-column-start: 1; grid-column-end: 2; grid-row-start: 4; grid-row-end: 8; border: 5px solid gainsboro;
+}
+.box5 {
+    grid-column-start: 2; grid-column-end: 12; grid-row-start: 4; grid-row-end: 8; border: 5px solid gainsboro;
+}
+.box6 {
+    grid-column-start: 1; grid-column-end: 12; grid-row-start: 8; grid-row-end: 8; border: 5px solid gainsboro;
+}
+</style>
+</head>
+<body style="background-color: gainsboro;">
+    <h3><a href="../segundo_layout/index.html"> Clique neste link para acessar o próximo layout da atividade</a></h3>
+    <div class="wrapper">
+        <div class="box1" style="text-align: left"><h1>Logo</h1></div>
+        <div class="box2"><h2>Navigation</h2></div>
+        <div class="box3"><h2>Header/Banner</h2></div>
+        <div class="box4"><h1>Side Bar</h1></div>
+        <div class="box5"><h1>Body Area</h1></div>
+        <div class="box6"><h1>Footer</h1></div>
+    </div>
+</body>
+</html>
