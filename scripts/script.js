@@ -17,12 +17,12 @@ function verificarIdade() {
 }
 
 window.addEventListener('DOMContentLoaded', function() {
-    var contadorElemento = document.getElementById('contador');
-    var segundos = 23;
+    var contadorElemento1 = document.getElementById('contador');
+    var segundos1 = 23;
 
     setInterval(function() {
-        segundos++;
-        contadorElemento.innerHTML = segundos;
+        segundos1++;
+        contadorElemento1.innerHTML = segundos1;
     }, 1000);
 });
 
@@ -30,22 +30,22 @@ function analisarDados() {
     var nome = document.getElementById("nome").value;
     var idade = parseInt(document.getElementById("idade").value);
     var numeroCalcado = parseInt(document.getElementById("calcado").value);
-    var mensagem = document.getElementById("mensagem");
+    var mensagem1 = document.getElementById("mensagem");
 
     if (idade === numeroCalcado) {
-        mensagem.innerHTML = nome + ", sua idade e seu número são iguais.";
+        mensagem1.innerHTML = nome + ", sua idade e seu número são iguais.";
     } else if (idade > numeroCalcado) {
-        mensagem.innerHTML = "Sua idade é maior que o número, oloko, " + nome + "!";
+        mensagem1.innerHTML = "Sua idade é maior que o número, oloko, " + nome + "!";
     } else {
-        mensagem.innerHTML = "Que pézão em é doido, " + nome + "!";
+        mensagem1.innerHTML = "Que pézão em é doido, " + nome + "!";
     }
 }
 
 function java(){
     var n1 = parseInt(prompt('Informe o primeiro valor'));
     var n2 = parseInt(prompt('Informe o segundo valor'));
-    var n3 = parseInt(prompt('Informe o segundo valor'));
-    var n4 = parseInt(prompt('Informe o segundo valor'));
+    var n3 = parseInt(prompt('Informe o terceiro valor'));
+    var n4 = parseInt(prompt('Informe o quarto valor'));
 
     alert((n1+n2+n3+n4)/4)
 }
@@ -116,14 +116,14 @@ botao2.onclick = function(){
     };
 
 function java8(){
-        var numero = parseInt(prompt("Digite um número maior que 0:"));
+        var numero9 = parseInt(prompt("Digite um número maior que 0:"));
 
-if (numero > 0) {
-    var soma = 0;
-    for (var i = 1; i < numero; i++) {
-    soma += i;
+if (numero9 > 0) {
+    var soma2 = 0;
+    for (var i = 1; i < numero9; i++) {
+    soma2 += i;
     }
-    console.log("A soma de todos os números menores que " + numero + " é: " + soma);
+    console.log("A soma de todos os números menores que " + numero9 + " é: " + soma2);
 
 } else {
     console.log("O número digitado não é válido. Por favor, digite um número maior que 0.");
